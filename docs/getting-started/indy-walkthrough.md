@@ -633,7 +633,7 @@ Alice goes through a familiar sequence of interactions.
   })
 ```
 
-One difference with the ussuance of the Transcript by Faber here is that a **Job-Certificate** can be revoked and the credential creation takes the ID of the revocation registry created earlier by **Acme** and a handle to the blob storage containing the validity tails:
+One difference with the issuance of the Transcript by Faber here is that a **Job-Certificate** can be revoked and the credential creation takes the ID of the revocation registry created earlier by **Acme** and a handle to the blob storage containing the validity tails:
 
 
 ```python
@@ -731,7 +731,7 @@ Alice has only one credential that meets the proof requirements for this **Loan-
           'last_name': 'Garcia',
           'experience': '10',
           'first_name': 'Alice',
-           'salary': '2400'
+          'salary': '2400'
       }
   }
 ```
